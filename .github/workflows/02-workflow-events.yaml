@@ -16,7 +16,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '35 7 * * *'
+    - cron: '40 7 * * *'
 
 jobs:
   echo:
