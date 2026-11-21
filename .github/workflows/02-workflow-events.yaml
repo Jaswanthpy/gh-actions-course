@@ -5,17 +5,6 @@ name: 02 - Workflow Events
 
 on:
   workflow_dispatch:
-    inputs:
-      example-input:
-        description: 'An example input for the workflow'
-        required: false
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
-
 jobs:
   echo:
     runs-on: ubuntu-latest
