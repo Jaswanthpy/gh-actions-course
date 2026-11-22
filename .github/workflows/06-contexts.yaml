@@ -52,3 +52,10 @@ jobs:
           echo "MY_OVERWRITTEN_VAR: $MY_OVERWRITTEN_VAR"
           echo "MY_WORKFLOW_VAR: $MY_WORKFLOW_VAR"
           echo "MY_JOB_VAR: $MY_JOB_VAR"
+  echo-data2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Echo Data
+        run: |
+          echo "MY_OVERWRITTEN_VAR: $MY_OVERWRITTEN_VAR"
+          echo "MY_WORKFLOW_VAR: $MY_WORKFLOW_VAR"
